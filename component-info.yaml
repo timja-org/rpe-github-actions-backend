@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "rpe-github-actions-backend"
+  description: GitHub actions backend
+spec:
+  type: service
+  lifecycle: experimental
+  owner: guest
