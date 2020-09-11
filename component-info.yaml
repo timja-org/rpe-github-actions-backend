@@ -3,6 +3,8 @@ kind: Component
 metadata:
   name: "rpe-github-actions-backend"
   description: GitHub actions backend
+  annotations:
+    github.com/project-slug: 'timja-org/rpe-github-actions-backend'
 spec:
   type: service
   lifecycle: experimental
